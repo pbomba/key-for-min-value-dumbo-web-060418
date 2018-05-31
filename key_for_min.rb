@@ -8,8 +8,14 @@ def key_for_min_value(name_hash)
       keyArray << k
       valueArray << v
     end
+  min = nil
   while i < valueArray.length
-  
+    if min == nil
+      min = i
+    elsif min > valueArray[i]
+      min = i
+    else
+    end
   i += 1
   end
 end
