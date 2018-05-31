@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
   while i < valueArray.length
     if min == nil
       min = i
-    elsif min > valueArray[i]
+    elsif valueArray[min] > valueArray[i]
       min = i
     else
     end
