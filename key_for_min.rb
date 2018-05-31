@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
       valueArray << v
     end
   min = nil
+  i = 0
   while i < valueArray.length
     if min == nil
       min = i
